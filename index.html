@@ -6,6 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.google.com/specimen/Raleway">
+  <link href="https://fonts.google.com/specimen/Open+Sans">
 
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
@@ -24,9 +26,7 @@
   <header class="header">
     <div class="logo">
       <a href="#" class="logo__link">
-        <svg>
-          <use xlink:href='images/logo.svg'></use>
-        </svg>
+        <img src="images/logo.svg" alt="logo">
       </a>
     </div>
 
@@ -148,7 +148,10 @@
           attachments required.
         </p>
 
-        <a href="#" class="btn btn--secondary">See how Fylo works</a>
+        <a href="#" class="btn btn--secondary">
+          See how Fylo works
+          <svg class="btn--secondary-icon"></svg>
+        </a>
       </div>
     </div>
 
@@ -177,7 +180,7 @@
   become a well-oiled collaboration machine.
     </blockquote>
     <div class="testomony__info">
-      <img src="images/profile-1.jpg" alt="">
+      <img src="images/profile-2.jpg" alt="">
       <p>
         Bruce McKenzie
         <span>Founder & CEO, Huddle</span>
@@ -191,7 +194,7 @@
   become a well-oiled collaboration machine.
     </blockquote>
     <div class="testomony__info">
-      <img src="images/profile-1.jpg" alt="">
+      <img src="images/profile-3.jpg" alt="">
       <p>
         Iva Boyd
         <span>Founder & CEO, Huddle</span>
@@ -204,16 +207,97 @@
 --------------------------EARLY ACCESS SECTION------------------------
 --------------------------------------------------------------------->
 
+<div class="early-access">
+  <h2 class="header header--secondary">
+    Get early access today
+  </h2>
+  <p class="early-access__text">
+    It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+  questions, our support team would be happy to help you.
+  </p>
 
+  <form action="#" class="early-access__form cta">
+    <input type="email" name="email" id="input--email">
+      <label for="input--email">Get Started For Free</label>
+  </form>
+</div>
 
   </main>
 
 
-  <footer>
+  <footer class="footer">
+
+    <div class="footer__logo logo">
+      <a href="#" class="logo__link">
+        <svg>
+          <use xlink:href='images/logo.svg'></use>
+        </svg>
+      </a>
+    </div>
+
+    <div class="footer__content">
+
+      <div class="footer__text">
+        <img src="images/icon-location.svg" alt="location icon" class="footer__text--icon">
+        <p class="footer__text--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+          dolore magna aliqua</p>
+      </div>
+
+      <div class="footer__contact">
+        <div class="contact__item">
+          <img src="images/icon-phone.svg" alt="phone icon">
+          <p>+1-543-123-4567</p>
+        </div>
+        <div class="contact__item">
+          <img src="images/icon-email.svg" alt="email icon">
+          <p>example@fylo.com</p>
+        </div>
+      </div>
+
+      <div class="footer__nav">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">About us</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Jobs</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Press</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+          </ul>
+
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Contact Us</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Terms</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Privacy</a></li>
+            
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer__social">
+        <svg>
+          <use xlink:href='images/symbol-defs.svg#facebook-with-circle'></use>
+        </svg>
+
+        <svg>
+          <use xlink:href='images/symbol-defs.svg#twitter-with-circle'></use>
+        </svg>
+
+        <svg>
+          <use xlink:href='images/symbol-defs.svg#instagram-with-circle'></use>
+        </svg>
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Rachid Ben</a>.
     </p>
+    -->
   </footer>
 </body>
 </html>
