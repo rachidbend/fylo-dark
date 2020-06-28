@@ -1,0 +1,36 @@
+
+
+.hero {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-self: center;
+    
+
+    margin-top: 7rem;
+
+    &__heading {
+        margin-top: 3.7rem;
+    }
+
+    &__img {
+
+    }
+
+    &__text {
+        color: var(--color-white);
+        margin-top: 3.5rem;
+        font-size: 2rem;
+        line-height: 1.5;
+        text-align: center;
+
+
+        max-width: 32%;
+    }
+
+    &__btn {
+        margin-top: 3rem;
+    }
+}

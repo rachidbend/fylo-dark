@@ -1,0 +1,25 @@
+
+
+.btn {
+    text-decoration: none;
+
+
+    &--primary {
+
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: var(--color-white);
+        padding: 1.8rem 9.5rem;
+        border-radius: 100px;
+        box-shadow: 0 2rem 5rem rgba(0,0,0, .2);
+
+        background-image: linear-gradient(to right, var(--color-cta-1), var(--color-cta-2));
+        transition: all .2s ease-in-out;
+    
+        &:hover {
+            background-image: linear-gradient(to left, var(--color-cta-1), var(--color-cta-2));
+            
+        }
+
+    }
+}
